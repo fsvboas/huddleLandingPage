@@ -1,0 +1,113 @@
+:root {
+  --violet: #674BAF;
+  --soft-magenta: #E882E8;
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  background: var(--violet) url(/images/bg-desktop.svg) top center/100%
+    no-repeat;
+
+    background-position-x: -4rem;
+    background-position-y: -4rem; 
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+
+  padding: 60px 75px 30px;
+
+  position: fixed;
+}
+
+.logo {
+  width: 250px;
+}
+
+main {
+  margin-top: 68px;
+  margin-bottom: 15px;
+
+  display: flex;
+}
+
+.text {
+  margin: 40px 60px;
+}
+
+.text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+
+  color: #fff;
+}
+
+.text p {
+  margin-top: 15px;
+
+  color: #fff;
+}
+
+.register {
+  margin-top: 30px;
+
+  padding: 15px 65px;
+
+  border: none;
+  border-radius: 2rem;
+
+  color: var(--violet);
+}
+
+.register:hover {
+  cursor: pointer;
+
+  transition: 300ms;
+
+  background: var(--soft-magenta);
+
+  color: #fff;
+}
+
+footer {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.copy {
+  margin-top: 15px;
+}
+
+.ico {
+  width: 20px;
+
+  border: 1px solid #fff;
+
+  border-radius: 45%;
+
+  padding: 10px;
+
+  margin: 5px;
+}
+
+.ico:hover {
+  border-color: var(--soft-magenta);
+
+  cursor: pointer;
+
+  filter: invert(61%) sepia(93%) saturate(804%) hue-rotate(253deg) brightness(108%) contrast(82%);
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  color: var(--soft-magenta)
+}
